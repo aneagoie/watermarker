@@ -1,2 +1,2 @@
 # watermarker
-A fun tool to watermark
+A fun tool to watermark your PDFs!
