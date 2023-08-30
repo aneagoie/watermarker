@@ -11,4 +11,5 @@ for i in range(template.getNumPages()):
 
   with open('watermarked_output.pdf', 'wb') as file:
     output.write(file)
+    
   
