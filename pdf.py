@@ -1,11 +1,11 @@
 import PyPDF2
 
-# template = PyPDF2.PdfFileReader(open('super.pdf', 'rb'))
-# watermark = PyPDF2.PdfFileReader(open('wtr.pdf', 'rb'))
+# template = PyPDF2.PdfFileReader(open('superduper.pdf', 'rb'))
+# watermark = PyPDF2.PdfFileReader(open('water.pdf', 'rb'))
 # output = PyPDF2.PdfFileWriter()
 # This is the new way to do this:
-template = PyPDF2.PdfReader(open('super.pdf', 'rb'))
-watermark = PyPDF2.PdfReader(open('wtr.pdf', 'rb'))
+template = PyPDF2.PdfReader(open('superduper.pdf', 'rb'))
+watermark = PyPDF2.PdfReader(open('water.pdf', 'rb'))
 output = PyPDF2.PdfWriter()
 
 
